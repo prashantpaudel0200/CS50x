@@ -1,2 +1,3 @@
-counter = print("Enter value:")
-print("The count is :", counter)
+#answer = input("What is your name?")
+#print(f"Hello,{answer}")
+counter = input()
