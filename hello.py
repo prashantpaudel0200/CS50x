@@ -1,2 +1,2 @@
-answer = input("What is your name?")
-print(f"Hello,{answer}")
+counter = print("Enter value:")
+print("The count is :", counter)
