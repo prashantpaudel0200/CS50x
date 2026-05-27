@@ -1,4 +1,8 @@
-def meow():
-    print("Meow")
-for _ in range(3):
-    meow()
+def main():
+        meow(3)
+
+def meow(n):
+    for _ in range(n):
+       print("Meow")
+if __name__ == "__main__":
+     main()
