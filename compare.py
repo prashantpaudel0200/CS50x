@@ -1,0 +1,10 @@
+from cs50 import get_int
+x = get_int("What is x?")
+y = get_int("What is y?")
+if x>y :
+    print("x is greater than y")
+elif x<y :
+    print("y is greater than x")
+
+else :
+    print("x is equal to y")
