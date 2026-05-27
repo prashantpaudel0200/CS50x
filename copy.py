@@ -1,3 +1,3 @@
 s = input ("s: ")
-t = s.capitalize()
-print(f"s : {s}\n t : {t}")
+t = s
+print(f"s : {s}\nt : {t}")
