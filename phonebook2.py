@@ -1,5 +1,7 @@
-name, number
+from sys import argv
+
 import csv
+
 with open("phonebook.csv","a") as file:
     writer = csv.writer(file)
-    writer.writerow([csv.argv[1], csv.argv[2]])
+    writer.writerow([argv[1],argv[2]])
